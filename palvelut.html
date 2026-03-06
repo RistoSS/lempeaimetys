@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="fi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palvelut, Lempeä Imetys</title>
+    <meta name="description"
+        content="Lempeä Imetys tarjoaa etäimetysohjausta, synnytysvalmennuksia ja imetyskursseja. Katso palvelumme ja hinnat.">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon"
+        href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23C8A2C8' stroke='%23A378A3' stroke-width='2'><path d='M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z'/></svg>">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <a href="index.html" class="nav-logo">
+                <svg class="icon" viewBox="0 0 24 24" fill="var(--color-primary)" stroke="var(--color-primary-dark)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+                </svg>
+                <span>Lempeä Imetys</span>
+            </a>
+            <button class="nav-toggle" id="nav-toggle" aria-label="Menu">
+                <span></span><span></span><span></span>
+            </button>
+            <div class="nav-right">
+                <div class="lang-toggle">
+                    <button data-lang="fi" class="active">FI</button>
+                    <button data-lang="en">EN</button>
+                </div>
+            </div>
+        </div>
+        <div class="nav-links" id="nav-links">
+            <a href="index.html" data-i18n="nav_home">Etusivu</a>
+            <a href="palvelut.html" data-i18n="nav_services">Palvelut</a>
+            <a href="tietoa-imetyksesta.html" data-i18n="nav_about_bf">Tietoa imetyksestä</a>
+            <a href="tietoa-minusta.html" data-i18n="nav_about_me">Tietoa minusta</a>
+            <a href="yhteystiedot.html" data-i18n="nav_contact">Yhteystiedot</a>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1 data-i18n="services_page_title">Palvelut</h1>
+            <p data-i18n="services_page_subtitle">Ammattitaitoista imetysohjausta etäyhteyden välityksellä</p>
+        </div>
+    </section>
+
+    <!-- Service 1: Remote Guidance -->
+    <section class="section">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-content fade-in-left">
+                    <span class="hero-badge" data-i18n="service_tag_remote">Etänä</span>
+                    <h2 data-i18n="service1_full_title">Etäimetysohjaus odottaville ja imettäville</h2>
+                    <div class="section-divider" style="margin-left: 0;"></div>
+                    <p data-i18n="service1_full_desc">
+                        Ensikäynnillä käymme läpi sinun tilanteesi kokonaisvaltaisesti. Keskustelemme imetyksen
+                        perusteista, imuotteesta, maidonerityksen käynnistymisestä sekä imetysasennoista. Saat käytännön
+                        vinkkejä ja vastauksia juuri sinun kysymyksiisi.
+                    </p>
+                    <ul class="service-features">
+                        <li data-i18n="service1_feat1">Kesto noin 1,5 tuntia</li>
+                        <li data-i18n="service1_feat2">Henkilökohtainen ohjaussuunnitelma</li>
+                        <li data-i18n="service1_feat3">Videopuhelulla (Teams/Zoom/WhatsApp)</li>
+                        <li data-i18n="service1_feat4">Kirjallinen yhteenveto tapaamisen jälkeen</li>
+                    </ul>
+                    <div class="service-price" data-i18n="service1_price">79 €</div>
+                    <span class="service-price price-detail"
+                        style="font-size: 0.9rem; color: var(--color-text-secondary); font-family: var(--font-body); font-weight: 400;"
+                        data-i18n="service1_price_detail">Ensikäynti (n. 1,5h)</span>
+                </div>
+                <div class="about-image-wrapper fade-in-right">
+                    <img src="images/Image 4.jpeg" alt="Imetysohjaus" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service: Follow-up -->
+    <section class="section" style="background-color: var(--color-surface);">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-image-wrapper fade-in-left">
+                    <img src="images/Image 3.jpeg" alt="Seurantakäynti" loading="lazy">
+                </div>
+                <div class="about-content fade-in-right">
+                    <h2 data-i18n="followup_title">Seurantakäynti</h2>
+                    <div class="section-divider" style="margin-left: 0;"></div>
+                    <p data-i18n="followup_desc">
+                        Seurantakäynnillä palaamme edelliseen tapaamiseemme ja katsomme miten imetys on edistynyt.
+                        Voimme syventyä tarkemmin niihin asioihin, jotka kaipaavat lisähuomiota.
+                    </p>
+                    <ul class="service-features">
+                        <li data-i18n="followup_feat1">Kesto noin 30–45 minuuttia</li>
+                        <li data-i18n="followup_feat2">Tilanteen seuranta ja arviointi</li>
+                        <li data-i18n="followup_feat3">Lisäneuvoja ja -tukea</li>
+                    </ul>
+                    <div class="service-price" data-i18n="followup_price">35 €</div>
+                    <span class="service-price price-detail"
+                        style="font-size: 0.9rem; color: var(--color-text-secondary); font-family: var(--font-body); font-weight: 400;"
+                        data-i18n="followup_price_detail">Seurantakäynti</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service 2: Birth Preparation -->
+    <section class="section">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-content fade-in-left">
+                    <span class="hero-badge" data-i18n="service_tag_remote">Etänä</span>
+                    <h2 data-i18n="service2_full_title">Synnytysvalmennukset etänä</h2>
+                    <div class="section-divider" style="margin-left: 0;"></div>
+                    <p data-i18n="service2_full_desc">
+                        Valmistaudu synnytykseen ja imetykseen turvallisessa ja rauhallisessa ympäristössä.
+                        Valmennuksessa käymme läpi synnytyksen vaiheet, kivunlievityksen keinoja, tukihenkilön roolin
+                        sekä imetyksen perusteet.
+                    </p>
+                    <ul class="service-features">
+                        <li data-i18n="service2_feat1">Etäyhteys kotiisi</li>
+                        <li data-i18n="service2_feat2">Yksilöllistä tai pienryhmävalmennusta</li>
+                        <li data-i18n="service2_feat3">Synnytyksen ja imetyksen peruskurssi</li>
+                    </ul>
+                    <div class="service-price" data-i18n="service2_price">Kysy hinta</div>
+                    <span class="service-price price-detail"
+                        style="font-size: 0.9rem; color: var(--color-text-secondary); font-family: var(--font-body); font-weight: 400;"
+                        data-i18n="service2_price_detail">Räätälöidään tarpeidesi mukaan</span>
+                </div>
+                <div class="about-image-wrapper fade-in-right">
+                    <img src="images/Image 2.jpeg" alt="Synnytysvalmennus" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service 3: Courses & Webinars -->
+    <section class="section" style="background-color: var(--color-surface);">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-image-wrapper fade-in-left">
+                    <img src="images/Image 1.jpeg" alt="Valmennuskurssit" loading="lazy">
+                </div>
+                <div class="about-content fade-in-right">
+                    <span class="hero-badge" style="background-color: var(--color-accent); color: var(--color-surface);"
+                        data-i18n="service_tag_coming">Tulossa</span>
+                    <h2 data-i18n="service3_full_title">Imetysvalmennuskurssit ja webinaarit</h2>
+                    <div class="section-divider" style="margin-left: 0;"></div>
+                    <p data-i18n="service3_full_desc">
+                        Kattavat verkkokurssit ja webinaarit, joissa perehdymme imetykseen syvällisesti. Kurssit sopivat
+                        niin odottaville kuin jo imettäville perheille.
+                    </p>
+                    <ul class="service-features">
+                        <li data-i18n="service3_feat1">Itsenäisesti opiskeltavat verkkokurssit</li>
+                        <li data-i18n="service3_feat2">Live-webinaarit interaktiivisella Q&A-osiolla</li>
+                        <li data-i18n="service3_feat3">Materiaalit käytössäsi rajattomasti</li>
+                    </ul>
+                    <p style="margin-top: var(--space-lg); font-weight: 600; color: var(--color-accent);"
+                        data-i18n="service3_coming">Tulossa pian, pysy kuulolla!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="section cta-section">
+        <div class="container fade-in">
+            <h2 data-i18n="cta_title">Haluatko lempeää tukea imetykseen?</h2>
+            <div class="section-divider"></div>
+            <p data-i18n="cta_desc">Ota yhteyttä ja varataan sinulle sopiva aika.</p>
+            <a href="yhteystiedot.html" class="btn btn-primary" data-i18n="cta_button">Ota yhteyttä</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="nav-logo">
+                        <svg class="icon" viewBox="0 0 24 24" fill="var(--color-primary)"
+                            stroke="var(--color-primary-light)" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round">
+                            <path
+                                d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                            </path>
+                        </svg>
+                        <span>Lempeä Imetys</span>
+                    </div>
+                    <p data-i18n="footer_desc">Ammattitaitoista ja lempeää imetysohjausta etäyhteyden välityksellä.</p>
+                </div>
+                <div class="footer-links">
+                    <h4 data-i18n="footer_links_title">Sivusto</h4>
+                    <a href="index.html" data-i18n="nav_home">Etusivu</a>
+                    <a href="palvelut.html" data-i18n="nav_services">Palvelut</a>
+                    <a href="tietoa-imetyksesta.html" data-i18n="nav_about_bf">Tietoa imetyksestä</a>
+                    <a href="tietoa-minusta.html" data-i18n="nav_about_me">Tietoa minusta</a>
+                </div>
+                <div class="footer-links">
+                    <h4 data-i18n="footer_contact_title">Yhteystiedot</h4>
+                    <a href="mailto:neea.liljanko@outlook.com">neea.liljanko@outlook.com</a>
+                    <a href="https://www.instagram.com/lempeaimetys/" target="_blank" rel="noopener">Instagram</a>
+                    <a href="yhteystiedot.html" data-i18n="nav_contact">Yhteystiedot</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p data-i18n="footer_copyright">© 2026 Lempeä Imetys. Kaikki oikeudet pidätetään.</p>
+                <div class="social-links">
+                    <a href="https://www.instagram.com/lempeaimetys/" target="_blank" rel="noopener"
+                        aria-label="Instagram">
+                        <svg class="icon" viewBox="0 0 24 24">
+                            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/translations.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

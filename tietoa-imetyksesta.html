@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="fi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tietoa imetyksestä, Lempeä Imetys</title>
+    <meta name="description"
+        content="Luotettavaa tietoa imetyksestä: hyödyt, yleisimmät haasteet, vinkkejä aloitukseen ja vastauksia usein kysyttyihin kysymyksiin.">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon"
+        href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23C8A2C8' stroke='%23A378A3' stroke-width='2'><path d='M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z'/></svg>">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <a href="index.html" class="nav-logo">
+                <svg class="icon" viewBox="0 0 24 24" fill="var(--color-primary)" stroke="var(--color-primary-dark)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+                </svg>
+                <span>Lempeä Imetys</span>
+            </a>
+            <button class="nav-toggle" id="nav-toggle" aria-label="Menu">
+                <span></span><span></span><span></span>
+            </button>
+            <div class="nav-right">
+                <div class="lang-toggle">
+                    <button data-lang="fi" class="active">FI</button>
+                    <button data-lang="en">EN</button>
+                </div>
+            </div>
+        </div>
+        <div class="nav-links" id="nav-links">
+            <a href="index.html" data-i18n="nav_home">Etusivu</a>
+            <a href="palvelut.html" data-i18n="nav_services">Palvelut</a>
+            <a href="tietoa-imetyksesta.html" data-i18n="nav_about_bf">Tietoa imetyksestä</a>
+            <a href="tietoa-minusta.html" data-i18n="nav_about_me">Tietoa minusta</a>
+            <a href="yhteystiedot.html" data-i18n="nav_contact">Yhteystiedot</a>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1 data-i18n="bf_page_title">Tietoa imetyksestä</h1>
+            <p data-i18n="bf_page_subtitle">Luotettavaa tietoa imetyksen tueksi</p>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="section">
+        <div class="container">
+            <div class="info-block">
+                <div class="info-block-content fade-in-left">
+                    <h3 data-i18n="bf_benefits_title">Imetyksen hyödyt</h3>
+                    <div class="section-divider" style="margin-left: 0;"></div>
+                    <p data-i18n="bf_benefits_desc">Imetys tarjoaa lukuisia terveyshyötyjä sekä vauvalle että äidille.
+                        Rintamaito on luonnon täydellinen ravinto vastasyntyneelle.</p>
+                    <ul>
+                        <li data-i18n="bf_benefit1">Rintamaito sisältää kaikki ravintoaineet, joita vauva tarvitsee
+                            ensimmäisten kuukausien aikana</li>
+                        <li data-i18n="bf_benefit2">Äidinmaito suojaa vauvaa infektioilta ja vahvistaa
+                            immuunijärjestelmää</li>
+                        <li data-i18n="bf_benefit3">Imetys tukee vauvan aivojen ja hermoston kehitystä</li>
+                        <li data-i18n="bf_benefit4">Imetys edistää äidin toipumista synnytyksestä</li>
+                        <li data-i18n="bf_benefit5">Imetys vahvistaa äidin ja vauvan välistä kiintymyssuhdetta</li>
+                    </ul>
+                </div>
+                <div class="info-block-image fade-in-right">
+                    <img src="images/Image 4.jpeg" alt="Imetyksen hyödyt" loading="lazy"
+                        style="width:100%; height:100%; object-fit:cover; border-radius: var(--radius-xl);">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Challenges Section -->
+    <section class="section" style="background-color: var(--color-surface);">
+        <div class="container">
+            <div class="info-block">
+                <div class="info-block-image fade-in-left">
+                    <img src="images/Image 3.jpeg" alt="Imetyksen haasteet" loading="lazy"
+                        style="width:100%; height:100%; object-fit:cover; border-radius: var(--radius-xl);">
+                </div>
+                <div class="info-block-content fade-in-right">
+                    <h3 data-i18n="bf_challenges_title">Yleisimmät haasteet</h3>
+                    <div class="section-divider" style="margin-left: 0;"></div>
+                    <p data-i18n="bf_challenges_desc">Imetyksen haasteet ovat hyvin yleisiä, eivätkä ne tarkoita
+                        epäonnistumista. Avun hakeminen ajoissa on tärkeää.</p>
+                    <ul>
+                        <li data-i18n="bf_challenge1">Rintojen aristus ja niiden kipeytyminen alkuvaiheessa</li>
+                        <li data-i18n="bf_challenge2">Imuotteen löytäminen ja oikea asento</li>
+                        <li data-i18n="bf_challenge3">Maidon riittävyys ja maidoneritys</li>
+                        <li data-i18n="bf_challenge4">Imetyksen yhdistäminen arkeen ja mahdolliseen työhön palaamiseen
+                        </li>
+                        <li data-i18n="bf_challenge5">Yöimetykset ja väsymys</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tips Section -->
+    <section class="section">
+        <div class="container">
+            <div class="info-block">
+                <div class="info-block-content fade-in-left">
+                    <h3 data-i18n="bf_tips_title">Vinkkejä imetyksen aloitukseen</h3>
+                    <div class="section-divider" style="margin-left: 0;"></div>
+                    <p data-i18n="bf_tips_desc">Hyvä alku on puoli voittoa! Näillä vinkeillä pääset imetyksen alkuun.
+                    </p>
+                    <ul>
+                        <li data-i18n="bf_tip1">Aloita ihokontakti mahdollisimman pian synnytyksen jälkeen</li>
+                        <li data-i18n="bf_tip2">Imetä tiheästi, vauvan tahtiin, mielellään 8–12 kertaa vuorokaudessa
+                            alkuvaiheessa</li>
+                        <li data-i18n="bf_tip3">Kiinnitä huomiota imuotteeseen: vauvan suu on auki leveästi ja alahuuli
+                            kääntyy ulos</li>
+                        <li data-i18n="bf_tip4">Kokeile erilaisia imetysasentoja ja löydä itsellesi sopivin</li>
+                        <li data-i18n="bf_tip5">Pyydä apua rohkeasti, ammattilainen voi auttaa haasteiden yli</li>
+                    </ul>
+                </div>
+                <div class="info-block-image fade-in-right">
+                    <img src="images/Image 2.jpeg" alt="Vinkkejä imetykseen" loading="lazy"
+                        style="width:100%; height:100%; object-fit:cover; border-radius: var(--radius-xl);">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- CTA Section -->
+    <section class="section cta-section">
+        <div class="container fade-in">
+            <h2 data-i18n="cta_title">Haluatko lempeää tukea imetykseen?</h2>
+            <div class="section-divider"></div>
+            <p data-i18n="cta_desc">Ota yhteyttä ja varataan sinulle sopiva aika.</p>
+            <a href="yhteystiedot.html" class="btn btn-primary" data-i18n="cta_button">Ota yhteyttä</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="nav-logo">
+                        <svg class="icon" viewBox="0 0 24 24" fill="var(--color-primary)"
+                            stroke="var(--color-primary-light)" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round">
+                            <path
+                                d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                            </path>
+                        </svg>
+                        <span>Lempeä Imetys</span>
+                    </div>
+                    <p data-i18n="footer_desc">Ammattitaitoista ja lempeää imetysohjausta etäyhteyden välityksellä.</p>
+                </div>
+                <div class="footer-links">
+                    <h4 data-i18n="footer_links_title">Sivusto</h4>
+                    <a href="index.html" data-i18n="nav_home">Etusivu</a>
+                    <a href="palvelut.html" data-i18n="nav_services">Palvelut</a>
+                    <a href="tietoa-imetyksesta.html" data-i18n="nav_about_bf">Tietoa imetyksestä</a>
+                    <a href="tietoa-minusta.html" data-i18n="nav_about_me">Tietoa minusta</a>
+                </div>
+                <div class="footer-links">
+                    <h4 data-i18n="footer_contact_title">Yhteystiedot</h4>
+                    <a href="mailto:neea.liljanko@outlook.com">neea.liljanko@outlook.com</a>
+                    <a href="https://www.instagram.com/lempeaimetys/" target="_blank" rel="noopener">Instagram</a>
+                    <a href="yhteystiedot.html" data-i18n="nav_contact">Yhteystiedot</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p data-i18n="footer_copyright">© 2026 Lempeä Imetys. Kaikki oikeudet pidätetään.</p>
+                <div class="social-links">
+                    <a href="https://www.instagram.com/lempeaimetys/" target="_blank" rel="noopener"
+                        aria-label="Instagram">
+                        <svg class="icon" viewBox="0 0 24 24">
+                            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/translations.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
