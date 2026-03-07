@@ -123,7 +123,7 @@ const translations = {
 
     // Contact Page
     contact_page_title: 'Ota yhteyttä',
-    contact_page_subtitle: 'Otan mielelläni yhteyttä! Kerro tilanteestasi, niin sovimme ajan.',
+    contact_page_subtitle: 'Ota rohkeasti yhteyttä! Kerro tilanteestasi, niin sovitaan sinulle sopiva aika.',
     contact_email_title: 'Sähköposti',
     contact_email_value: 'neea.liljanko@outlook.com',
     contact_whatsapp_title: 'WhatsApp',
@@ -280,7 +280,7 @@ const translations = {
 
     // Contact Page
     contact_page_title: 'Contact',
-    contact_page_subtitle: 'I\'d love to hear from you! Tell me about your situation and we\'ll schedule a time.',
+    contact_page_subtitle: 'Don\'t hesitate to reach out! Tell me about your situation and we\'ll find a time that works for you.',
     contact_email_title: 'Email',
     contact_email_value: 'neea.liljanko@outlook.com',
     contact_whatsapp_title: 'WhatsApp',
